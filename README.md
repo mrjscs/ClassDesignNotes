@@ -13,7 +13,7 @@ public class Example {
         System.out.println( max(arr) ); // prints 12
     }
 
-    public static void max(int[] nums) {
+    public static int max(int[] nums) {
         int m = nums[0];
         
         for (int i = 1; i < nums.length; i++) {
